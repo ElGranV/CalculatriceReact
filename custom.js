@@ -38,16 +38,6 @@ function formatted(str)
   return s;
 }
 
-class Search extends React.Component {
-  render() {
-    return (
-      <View>
-        <TextInput placeholder='Bonjour' style={styles.search.input}/>
-        <Button title='Guick' onPress={() => {}}/>
-      </View>
-    )
-  }
-}
 class Touche extends React.Component
 {
   static defaultTouchStyle = {
